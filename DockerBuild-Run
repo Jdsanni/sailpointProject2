@@ -1,0 +1,5 @@
+#To build the docker image, we can run the command
+docker build -t github-pull-requests .
+
+#To run the docker image, we can run the command
+docker run -it github-pull-requests
