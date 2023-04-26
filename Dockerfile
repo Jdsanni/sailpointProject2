@@ -1,11 +1,11 @@
 FROM python:3.9-slim-buster
 
-WORKDIR /app
+WORKDIR /main
 
-COPY requirements.txt .
+COPY . /main
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "./pull_requests_summary.py" ]
+CMD [ "python", "main.py" ]

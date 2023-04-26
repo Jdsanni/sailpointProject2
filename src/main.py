@@ -49,9 +49,9 @@ from_email = 'josh@sailpoint.com'
 to_email = 'manager_1@sailpoint.com'
 subject = f'Report for {owner}/{repo} Pull Requests ({start_date} to {end_date})'
 body = f'''
-Hello Team Manager,
+Hello Sailpoint Team Manager,
 
-Here is the summary report for {owner}/{repo} pull requests from {start_date} to {end_date}:
+As Requested, Here is the summary report for {owner}/{repo} pull requests from {start_date} to {end_date}:
 
 Opened Pull Requests ({len(opened)}):
 '''
