@@ -4,4 +4,4 @@ docker build -t github-pull-requests .
 #To run the docker image, we can run the command
 docker run -it github-pull-requests
 
-#After running the last command your docker file will be built and the project us done.  
+#After running the last command your docker file will be built and the project us done
