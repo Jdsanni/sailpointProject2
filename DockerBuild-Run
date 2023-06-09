@@ -6,4 +6,5 @@ docker run -it github-pull-requests
 
 #After running the last command your docker file will be built and the project us done
 #this is also to confirm what i am doing with webhook
-#i am trying webhook for the second day 
+#i am trying webhook for the second day
+#now i am trying to clone and perform the changes from the terminal  
